@@ -35,7 +35,7 @@ export default function Home() {
             <input
               readOnly
               value={x ? num * m.value : ""}
-              className="border rounded-lg px-4 py-3 text-lg bg-gray-100"
+              className="border rounded-lg px-4 py-3 text-lg"
             />
           </div>
         ))}
